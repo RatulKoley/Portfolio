@@ -87,7 +87,7 @@ const typed = new Typed('.multiple-text', {
 
   //Contact Form Google Sheet Submittion Data
   const scriptURL = 'https://script.google.com/macros/s/AKfycbz5cDsdsuw_w7NHEzN0VAspw50w21aLK1udAXpg1KhkPVYDbzVVB2SdE0AAgdQcUeNk3w/exec'
-  const form = document.forms['submit-to-google-sheet']
+  const form = document.forms['Contact-Form']
   const msg = document.getElementById("msg");
 
   form.addEventListener('submit', e => {
