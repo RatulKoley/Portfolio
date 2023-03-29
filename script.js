@@ -62,8 +62,8 @@ ScrollReveal().reveal(' .home-content .social-media',{origin:'right'});
 
 
 //Type Effect
-var typed = new Typed('.multiple-text', {
-    strings: ['Web Designer','Fivem Developer', '.Net Developer'],
+const typed = new Typed('.multiple-text', {
+    strings: ['Angular &amp;','.Net Dev','Youtuber', 'Game Dev'],
     typeSpeed: 70,
     backspeed:100,
     backdelay:1000,
