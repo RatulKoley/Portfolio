@@ -225,6 +225,21 @@ span{
     background: linear-gradient(rgba(0,0,0,.1),rgba(2, 63, 104, 0.1));
 }
 
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 130px;
+    width: 580px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+.home-imgHover:hover{
+    background: #1f242d;
+    opacity: .9;
+
+}
+
 .about{
     display: flex;
     justify-content: center;
@@ -543,6 +558,22 @@ span{
 
 
 /* Breakpoints */
+@media(max-width:1366){
+    .home-imgHover{
+        position: absolute;
+        top: 0;
+        right: 125px;
+        width: 415px;
+        height: 100%;
+        background: transparent;
+        transition: 3s;
+    }
+    .home-imgHover:hover{
+        background: #1f242d;
+        opacity: .9;
+    
+    }
+}
 @media(max-width:1200px){
     html{
         font-size: 55%;
